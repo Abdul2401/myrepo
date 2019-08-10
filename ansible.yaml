@@ -12,8 +12,4 @@
     yum:
       name: nginx
       state: present
-  - name: apache install
-    yum:
-      name: httpd
-      state: latest
   
